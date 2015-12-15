@@ -7,11 +7,10 @@ A Capybara like abstraction for Webdriver.io and ChimpJS
 Clean up your webdriver code with a clean syntax based on Capybara.
 
 ```javascript
+// As an author
+// I want to create a blog post
+// So that I can show  my work to the world
 feature("Create blog post", () => {
-  // As an author
-  // I want to create a blog post
-  // So that I can show  my work to the world
-  
   setup(() => {
     visit('/posts/new')
   })
